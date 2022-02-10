@@ -1,0 +1,25 @@
+.Checkbok-item{
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    margin:12px;
+    height:48px;
+    align-items: center;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.Checkbok-item-divText{
+    width: 97%;
+    overflow: hidden;
+}
+
+.Checkbok-item-checkBox{
+    margin: 10px;
+
+}
+
+@media screen and (max-width:460px) {
+    .Checkbok-item{
+        width: 80%;
+    }
+}
